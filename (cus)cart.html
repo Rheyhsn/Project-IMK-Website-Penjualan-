@@ -1,0 +1,308 @@
+<html>
+  <head>
+    <title>Cart</title>
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Library icon -->
+    <!-- Data Tables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+
+    <!--Header-->
+    <div class="header">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="logo pb-2">
+            <img src="assets/img/LOGO.svg" alt="" />
+          </div>
+          <div class="menu pt-2">
+            <ul>
+              <li><a class="nav-link link-dark" href="(cus)home.html">Home</a></li>
+              <li><a class="nav-link link-dark" href="(cus)best_seller.html">Products</a></li>
+              <li><a class="nav-link link-dark" href="(cus)data_pesanan.html">Purchase</a></li>
+            </ul>
+          </div>
+          <div class="menu pt-2">
+            <ul>
+              <li>
+                <a class="nav-link link-dark" href="(cus)profile.html"><i class="fas fa-user-alt"></i></a>
+              </li>
+              <li>
+                <div class="border-bottom border-dark">
+                  <a class="nav-link link-dark active" aria-current="page" href="(cus)cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </li>
+              <li>
+                <a class="nav-link link-dark" href="(cus)chat.html"><i class="fas fa-comment-dots"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid" style="background-color:#6ca4ba;">
+      <div class="navbar-nav pt-2 pb-2">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col">
+                <div class="card mx-auto bg-light">
+                  <div class="input-group">
+                    <i class="fa fa-search text-dark align-self-center ps-3"></i>
+                    <input type="text" class="form-control bg-transparent text-center" placeholder="Search" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col text-end">
+                <div class="d-grid col-12 mx-auto">
+                  <a class="btn btn-custom" href="(cus)data_pesanan.html" role="button">See My Order History</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!--Close Navbar-->
+
+    <!--Container-->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 me-5">
+          <div class="card mb-3 w-100" style="background-color: #c3d3da">
+            <div class="row g-0">
+              <div class="col-md-1 align-self-center p-3">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+              <div class="col-md-2 ms-3 align-self-center">
+                <a href="(cus)tampilan_tv.html"><img src="assets/img/tv.png" class="img-fluid rounded" alt="television" /></a>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-text">Television</h5>
+                  <p class="card-text"><small class="text-muted">Sharp</small></p>
+                  <p class="card-text">Rp629.000</p>
+                </div>
+              </div>
+              <div class="col align-self-end mb-2">
+                  <button class="btn bg-transparent"><i class="bi bi-trash"></i></i></button>
+                  <button class="btn bg-transparent"><i class="bi bi-dash-circle"></i></i></button>
+                  <button class="btn bg-transparent">1</button>
+                  <button class="btn bg-transparent"><i class="bi bi-plus-circle"></i></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100" style="background-color: #c3d3da">
+            <div class="row g-0">
+              <div class="col-md-1 align-self-center p-3">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+              <div class="col-md-2 ms-3 align-self-center">
+                <a href="(cus)tampilan_lampu.html"><img src="assets/img/lampu.png" class="img-fluid rounded" alt="lamp" /></a>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-text">Lamp</h5>
+                  <p class="card-text"><small class="text-muted">Philips</small></p>
+                  <p class="card-text">Rp25.000</p>
+                </div>
+              </div>
+              <div class="col align-self-end mb-2">
+                  <button class="btn bg-transparent"><i class="bi bi-trash"></i></i></button>
+                  <button class="btn bg-transparent"><i class="bi bi-dash-circle"></i></i></button>
+                  <button class="btn bg-transparent">3</button>
+                  <button class="btn bg-transparent"><i class="bi bi-plus-circle"></i></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100" style="background-color: #c3d3da">
+            <div class="row g-0">
+              <div class="col-md-1 align-self-center p-3">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+              <div class="col-md-2 ms-3 align-self-center">
+                <a href="(cus)tampilan_blender.html"><img src="assets/img/blender.png" class="img-fluid rounded" alt="blender" /></a>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-text">Blender</h5>
+                  <p class="card-text"><small class="text-muted">Cosmos</small></p>
+                  <p class="card-text">Rp470.000</p>
+                </div>
+              </div>
+              <div class="col align-self-end mb-2">
+                  <button class="btn bg-transparent"><i class="bi bi-trash"></i></i></button>
+                  <button class="btn bg-transparent"><i class="bi bi-dash-circle"></i></i></button>
+                  <button class="btn bg-transparent">1</button>
+                  <button class="btn bg-transparent"><i class="bi bi-plus-circle"></i></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100" style="background-color: #c3d3da">
+            <div class="row g-0">
+              <div class="col-md-1 align-self-center p-3">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+              <div class="col-md-2 ms-3 align-self-center">
+                <a href="(cus)tampilan_mp3.html"><img src="assets/img/m3player.png" class="img-fluid rounded" alt="MP3 Player" /></a>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-text">MP3 Player</h5>
+                  <p class="card-text"><small class="text-muted">Sharp</small></p>
+                  <p class="card-text">Rp130.000</p>
+                </div>
+              </div>
+              <div class="col align-self-end mb-2">
+                  <button class="btn bg-transparent"><i class="bi bi-trash"></i></i></button>
+                  <button class="btn bg-transparent"><i class="bi bi-dash-circle"></i></i></button>
+                  <button class="btn bg-transparent">1</button>
+                  <button class="btn bg-transparent"><i class="bi bi-plus-circle"></i></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100" style="background-color: #c3d3da">
+            <div class="row g-0">
+              <div class="col-md-1 align-self-center p-3">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+              <div class="col-md-2 ms-3 align-self-center">
+                <a href="(cus)tampilan_vc.html"><img src="assets/img/vaccuum cleaner.png" class="img-fluid rounded" alt="vaccuum cleaner" /></a>
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-text">Vaccuum Cleaner</h5>
+                  <p class="card-text"><small class="text-muted">Maximus</small></p>
+                  <p class="card-text">Rp290.000</p>
+                </div>
+              </div>
+              <div class="col align-self-end mb-2">
+                  <button class="btn bg-transparent"><i class="bi bi-trash"></i></i></button>
+                  <button class="btn bg-transparent"><i class="bi bi-dash-circle"></i></i></button>
+                  <button class="btn bg-transparent">1</button>
+                  <button class="btn bg-transparent"><i class="bi bi-plus-circle"></i></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 align-self-center">
+          <div class="card text-dark bg-light border-2 w-100 mb-3" style="border-color: #c3d3da">
+            <div class="card-header">
+              <div class="text-center fw-bold">
+                <h7>Shopping Summary</h7>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col md-6">
+                <div class="card-body">
+                  <p class="card-text text-muted text-start ms-2">Total Price</p>
+                  <p class="card-text text-muted text-start ms-2">Total Discount</p>
+                  <p class="card-text fw-bold text-start ms-2">Total Payment</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p class="card-text text-muted text-end me-2">Rp1.744.000</p>
+                  <p class="card-text text-muted text-end me-2">-Rp0</p>
+                  <p class="card-text fw-bold text-end me-2">Rp1.744.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-grid gap-2 col-4 mx-auto">
+                <input class="btn btn-default" type="submit" value="Buy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!--Close Container-->
+
+    <!--Footer-->
+    <footer style="background-color: #044c5c">
+      <div class="container-fluid">
+        <div class="row height d-flex justify-content-center align-items-center">
+          <div class="col col-12 p-2">
+            <div class="row height d-flex justify-content-center align-items-center">
+              <div class="col-md-2 ps-5 align-items-center">
+                <img src="assets/img/logo1.png" width="178" height="100" class="d-inline-block align-text-top" />
+              </div>
+              <div class="col-md-8 align-items-center pt-4">
+                <p class="text-light text-center" style="font-size: 14px">Copyright ©&nbsp;ELECTRA 2021. Made by Kelompok 4</p>
+              </div>
+              <div class="col-md-2 text-center align-text-top ps-5 pt-2">
+                <img src="assets/Lucid_Illustrations_1.1/16/right/Illustration.png" width="100" height="100" class="d-inline-block align-text-top" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Close Footer-->
+  </body>
+</html>

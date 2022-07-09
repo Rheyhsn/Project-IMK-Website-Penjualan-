@@ -1,0 +1,24 @@
+Html
+<div class="col-md-3">
+   <div class="row">
+   	<div class="col-md-1"></div>
+	<div class="col">
+		<div class="card mx-auto bg-light">
+			<div class="input-group">
+				<i class="fa fa-search text-dark align-self-center ps-3"></i>
+				<input type="text" class="form-control bg-transparent text-center" placeholder="Search" />
+			</div>
+		</div>
+	</div>
+    </div>
+</div>
+
+CSS
+.fa-search {
+  border-left: 0 solid transparent;
+  background: transparent;
+}
+.form-control {
+  border-right: 0;
+  border-left: 0;
+}

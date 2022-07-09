@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <!--Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <!-- Library icon -->
+        <!-- Data Tables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
+        <!-- Font Google -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+        <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+        <title>Data Pemesanan</title>
+        <!--     Fonts and icons     -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <!-- Nucleo Icons -->
+        <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+        <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+        <!-- CSS Files -->
+        <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.0" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/header.css" />
+      </head>
+    
+      <body class="g-sidenav-show bg-gray-200">
+        <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <!--My CSS-->
+          <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    
+          <!--Header-->
+          <div class="header">
+            <nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <div class="logo pb-2">
+                  <img src="../assets/img/LOGO.svg" alt="" />
+                </div>
+                <div class="menu pt-2">
+                  <ul>
+                    <li><a class="nav-link link-dark" href="../../../(cus)home.html">Home</a></li>
+                    <li><a class="nav-link link-dark" href="../../../(cus)best_seller.html">Products</a></li>
+                    <li><a class="nav-link link-dark" href="../../../(cus)data_pesanan.html">Purchase</a></li>
+                  </ul>
+                </div>
+                <div class="menu pt-2">
+                  <ul>
+                    <li>
+                      <a class="nav-link link-dark" href="../../../(cus)profile.html"><i class="fas fa-user-alt"></i></a>
+                    </li>
+                    <li>
+                      <a class="nav-link link-dark" href="../../../(cus)cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li>
+                      <a class="nav-link link-dark" href="../../../(cus)chat.html"><i class="fas fa-comment-dots"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!--Close Header-->
+    
+      <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                <div class="card">
+                    <div class="card-header pb-0">
+                        <div class="row">
+                            <div class="col-lg-6 col-7">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card my-4">
+                                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                    <div class="bg-gradient-info border-radius-lg pt-4 pb-3">
+                                        <!-- <h6 class="text-white text-capitalize ps-3">Data Warehouse</h6> -->
+                                        <div class="col-2 ml-2">
+                                            <div class="input-group input-group-outline pl-2 ml-2" style="margin-left: 20px;">
+                                                <label class="form-label pl-4 ml-4 mt-3 "> <i class="fa fa-search pl-4 ml-4">     Search here...</i></label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body px-0 pb-2">
+                                        <div class="table-responsive p-0">
+                                            <table class="table align-items-center mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tanggal Masuk</th>
+                                                        <!-- <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Order Details</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Invoice</th> -->
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Order Details</th>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Invoice</th>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Costumer</th>
+                                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Payment Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">11/12/2012</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Click Here</span>
+                                                        </td>
+                                                        <td class="align-middle text-center">
+                                                            <span class="text-secondary text-xs font-weight-bold">Ahmad</span>
+                                                        </td>
+                                                        <td class="align-middle text-center text-sm">
+                                                            <span class="badge badge-sm bg-gradient-success">Ready</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <a class="text-white " href="{{ route('input')}}">
+                                        <button type="button" class="btn bg-gradient-info w-20 my-2 mb-2">See My Order History</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <nav aria-label="...">
+
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" tabindex="-1">
+                                            <</a>
+                                    </li>
+                                    <li class="page-item "><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" style="
+                      margin-right: 100px;
+                      ">></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer style="background-color: #044c5c">
+            <div class="row height d-flex justify-content-center align-items-center">
+                <div class="col col-12 p-2">
+                    <div class="row height d-flex justify-content-center align-items-center">
+                        <div class="col-md-2 ps-5 align-items-center">
+                            <img src="../assets/img/logo1.png" width="178" height="100" class="d-inline-block align-text-top" />
+                        </div>
+                        <div class="col-md-8 align-items-center pt-4">
+                            <p class="text-light text-center" style="font-size: 14px">Copyright ©&nbsp;ELECTRA 2021. Made by Kelompok 4</p>
+                        </div>
+                        <div class="col-md-2 text-center align-text-top ps-5 pt-2">
+                            <img src="../assets/img/Lucid_Illustrations_1.1/16/right/Illustration.svg" width="100" height="100" class="d-inline-block align-text-top" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</main>
+
+<!--   Core JS Files   -->
+<script src="../assets/js/core/popper.min.js"></script>
+<script src="../assets/js/core/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+<script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+        var options = {
+            damping: '0.5'
+        }
+        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+</script>
+<!-- Github buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="../assets/js/material-dashboard.min.js?v=3.0.0"></script>
+</body>
+</html>

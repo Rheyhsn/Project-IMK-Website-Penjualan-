@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Library css -->
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Library icon -->
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Membuat Header Navbar -->
+    <div class="header">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="logo pb-2">
+                    <img src="assets/img/LOGO.svg" alt="" />
+                </div>
+                <div class="menu pt-2">
+                    <ul>
+                        <li><a class="nav-link link-dark " href="(cus)home.html">Home</a></li>
+                        <li><a class="nav-link link-dark" href="(cus)best_seller.html">Products</a></li>
+                        <li><a class="nav-link link-dark" href="(cus)data_pesanan.html">Purchase</a></li>
+                    </ul>
+                </div>
+                <div class="menu pt-2">
+                    <ul>
+                        <li>
+                            <a class="nav-link link-dark active fw-bold" href="(cus)profile.html"><i
+                                    class="fas fa-user-alt"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link link-dark" href="(cus)cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link link-dark" href="(cus)chat.html"><i class="fas fa-comment-dots"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Close Header Navbar-->
+
+    <!-- PROFIL DAN INPUT -->
+    <section id=profile-user>
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <!-- Membuat Profil -->
+                        <div class="text-center">
+                            <img style="height:150px" src="assets/img/fotoprofil.svg" alt="profil" class="mb-3">
+                            <h4>@collinedward</h4>
+                        </div>
+                        <div class="usermenu">
+                            <ul>
+                                <li><a href="#">Name</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Logout<i class="fas fa-sign-out ps-5"></i></a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Akhir Profil -->
+                </div>
+
+                    <div class="col-6 col-md-6">
+                        <!--Input Identitas-->
+                            <h1 class="mb-5">Profile</h1>
+                            <form>
+                                <div class="mb-4">
+                                    <label for="Input-Nama" class="form-label">NAME</label>
+                                    <input type="text" class="form-control" id="Input-Nama" placeholder="Collin Edward">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="input-Username" class="form-label">USERNAME</label>
+                                    <input type="text" class="form-control" id="input-Username" placeholder="@collinedward">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="Input-Email" class="form-label">EMAIL</label>
+                                    <input type="text" class="form-control" id="Input-Email" placeholder="********@yahoo.com">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="Input-Location" class="form-label">LOCATION</label>
+                                    <input type="text" class="form-control" id="Input-Location" placeholder="California">
+                                </div>
+                                <div class="d-md-flex justify-content-md-end">
+                                    <button type="submit" class="btn btn-dark"
+                                        style="background-color:#044c5c ;">Save</button>
+                                </div>
+                            </form>
+                        <!-- Akhir Input Identitas -->
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir PROFIL DAN INPUT -->
+
+    <!-- Footer -->
+    <footer style="background-color: #044c5c">
+        <div class="container-fluid">
+            <div class="row height d-flex justify-content-center align-items-center">
+                <div class="col col-12 p-2">
+                    <div class="row height d-flex justify-content-center align-items-center">
+                        <div class="col-md-2 ps-5 align-items-center">
+                            <img src="assets/img/LOGO.svg" width="178" height="100" class="inline-block align-text-top" />
+                        </div>
+                        <div class="col-md-8 align-items-center pt-4">
+                            <p class="text-light text-center" style="font-size: 14px">Copyright ©&nbsp;ELECTRA 2021.
+                                Made by Kelompok 4</p>
+                        </div>
+                        <div class="col-md-2 text-center align-text-top ps-5 pt-2">
+                            <img src="assets/img/Lucid_Illustrations_1.1/16/right/Illustration.png" width="100" height="100"
+                                class="d-inline-block align-text-top" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Close Footer -->
+</body>
+
+</html>
